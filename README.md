@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-composer require svv/router:^1.0.2
+composer require svv/router:^1.0.5
 ```
 
 ## Arborescence

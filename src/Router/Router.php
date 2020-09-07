@@ -8,6 +8,7 @@ class Router
 {
 
     private string $url;
+    public static string $namespace;
     private array $routes = [];
     private array $namedRoutes = [];
 
@@ -15,10 +16,12 @@ class Router
      * Router constructor.
      *
      * @param string $url
+     * @param string $namespace
      */
-    public function __construct ($url)
+    public function __construct ($url, string $namespace)
     {
         $this->url = $url;
+        $this->namespace = $namespace;
     }
 
     public function get (string $path, $callable, string $name = null)

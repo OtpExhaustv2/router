@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Router;
+namespace Svv\Router;
 
-use App\Exception\RouterException;
+use Svv\Exception\RouterException;
 
 class Router
 {

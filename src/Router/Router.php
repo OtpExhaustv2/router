@@ -21,7 +21,7 @@ class Router
     public function __construct ($url, string $namespace)
     {
         $this->url = $url;
-        $this->namespace = $namespace;
+        self::$namespace = trim($namespace, "\\");
     }
 
     public function get (string $path, $callable, string $name = null)

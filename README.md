@@ -15,7 +15,7 @@ composer require svv/router:^1.0.5
     
 ## Usage
 
-1. First param is the url that will be matched and the second is the namespace of your project
+1. First param is the url that will be matched and the second is the namespace of your classes
 2. First param is the path, second the callback and the third is the name
    - If the name is null, then the name of the route will be the callback
 3. You can change the regular expression for type hinting with the method ***with***

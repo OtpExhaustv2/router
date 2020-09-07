@@ -1,0 +1,16 @@
+{
+    "name": "svv/router",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Van Vreckem",
+            "email": "svanvreckem@helb-prigogine.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {}
+}
